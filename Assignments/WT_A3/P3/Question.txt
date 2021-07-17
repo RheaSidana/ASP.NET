@@ -1,0 +1,1 @@
+Write a program that gets user input such as the user name, mode of payment, appropriate credit card. After the user enters the appropriate values the Validation button must validates the values entered. 
