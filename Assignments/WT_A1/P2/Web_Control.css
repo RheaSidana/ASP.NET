@@ -1,0 +1,30 @@
+center{
+    color:yellow;
+}
+
+h2{
+    font-style: oblique;
+    font-size: 49px;
+}
+
+body{
+    padding-top: 150px;
+    background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/B141/production/_106077354_gettyimages-936748654.jpg);
+}
+
+button{
+    color: red;
+    background-color: yellow;
+}
+
+label{
+    font-size: medium;
+    font-style: initial;
+}
+
+#displayLabel{
+    font-style: oblique;
+    font-size: 35px;
+    color:cornsilk;
+    font-weight: bolder;
+}
