@@ -1,0 +1,71 @@
+body{
+    padding-left: 400px;
+    padding-top: 220px;
+    padding-right: 400px;
+    color: brown;
+    background-image: url(https://media.greenmatters.com/brand-img/ceb5WYQXC/0x0/why-is-the-sky-yellow-1597952184921.jpg);
+    background-size: 100% 150%;
+}
+
+div,h3{
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 10px;
+    background-size: 100% 20%;
+    background-image: url(https://image.freepik.com/free-vector/yellow-background-with-halftone-lines-design_1017-30148.jpg);
+}
+
+h2,h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-size: 100% 50%;
+}
+
+label{
+    font-family: fantasy;
+    box-sizing: 20px;
+}
+
+input{
+    border-width: thick;
+}
+
+button,a,#res{
+    background-color: brown;
+    color: white;
+}
+
+button{
+    padding-left: 35px;
+    padding-right: 35px;
+    border-width: thick;
+}
+
+a{
+    text-decoration: none;
+}
+
+#res{
+    padding-left: 42px;
+    padding-right: 44px;
+    border-width: thick;
+}
+
+#Remember{
+    width: 15px;
+    height: 15px;
+}
+
+#remLabel{
+    font-family: cursive;
+}
+
+#UserName,#Password{
+    padding-left: 15px;
+}
