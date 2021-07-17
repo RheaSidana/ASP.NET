@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Form : Feedback Form</title>
+        <link rel="stylesheet" href="web_form.css">
+        <script type="text/javascript" src="web_form.js"></script>
+    </head>
+    <body>
+        <center id="formCenter">
+            <h1> FEEDBACK FORM </h1>
+            <h2> Please fill the following feedback form with correct details </h2>
+            <form name="Student_Feedback" onsubmit="submitForm()">
+                <div>
+                <br/><br/>
+                <b><label>First Name </label></b>
+                &nbsp;&nbsp;
+                <input type="text" id="fname" name="fname">
+                <br/><br/>
+                <b><label>Last Name </label></b>
+                &nbsp;&nbsp;
+                <input type="text" id="lname" name="lname">
+                <br/><br/>
+                <b><label>Class </label></b>
+                &nbsp;&nbsp;
+                <input type="text" id="studentClass" name="studentClass"> 
+                &nbsp;&nbsp;
+                <br/><br/>
+                <b><label>Roll Number </label></b>
+                &nbsp;&nbsp;
+                <input type="number" id="roll" name="roll">
+                <br/><br/>
+                <b><label>Gender </label></b>
+                &nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="male">
+                <label>Male</label>
+                &nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="female">
+                <label>Female</label>
+                &nbsp;&nbsp;
+                <input type="radio" id="gender" name="gender" value="other">
+                <label>Other</label>
+                <br/><br/>
+                <b><label>Subject</label></b>
+                <select name="subject" id="subject" >
+                    <option value="C"> C </option>
+                    <option value="CPP"> C++ </option>
+                    <option value="Java"> Java </option>
+                    <option value="ASP"> ASP.NET </option>
+                </select>
+                &nbsp;&nbsp;
+                <br/><br/>
+                <input type="submit" id="SubmitBtn" value="Submit">
+                <br/><br/>
+                </div>
+                <br/><br/>
+            </form>
+        </center>
+    </body>
+</html>
+
