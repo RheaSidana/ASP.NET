@@ -1,0 +1,12 @@
+﻿body {
+    background-image: url(https://cdn.dribbble.com/users/2318504/screenshots/13922742/media/8422aaf69665855518150a6acc77cccb.jpg?compress=1&resize=400x300);
+    background-size: 100% 300%;
+}
+
+form {
+    padding-top: 10%;
+}
+
+#LblDisplay{
+    padding-top: 3px;
+}
