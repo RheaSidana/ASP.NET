@@ -1,0 +1,7 @@
+Student{ID, Name, Father_name, mobile, email, password} email must be unique.
+ Course{ ID, Name, Duration, Fee} 
+Subjects{ID, Name} 
+Course_subject{subject_id, course_id}
+
+A4P1. Design and develop a solution to get the personal information from the student to register in a course. The list of course must populated from the database. The constraint is that One student can register himself for the one course at a time. 
+A4P2. Student must be able to see the list of subjects, which are going to be taught during the course.
